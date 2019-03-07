@@ -9,11 +9,11 @@ void setup() {
 
 void draw() {
   background(255);
-  Button pause = new Button("Pause", width - 150, 50);
+  Button pause = new Button("Pause", width - 50, 18);
   f.displayFruit(200, 200);
   board.initGame();
   pause.displayButton();
-
+  board.displayScore();
   noStroke();
 }
 

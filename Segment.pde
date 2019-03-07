@@ -18,6 +18,9 @@ class Segment {
     fill(210, 180, 60);
     rect(xPos, yPos, 50, 50);
   }
+  
+  
+  
 
   void move() {
     if (key == CODED) {

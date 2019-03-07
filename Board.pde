@@ -3,6 +3,7 @@ class Board {
   int ySpeed = 0;
   int x = width / 2;
   int y = height / 2;
+  int i;
   Segment s0;
  
 
@@ -27,6 +28,16 @@ class Board {
     s0.move();
     x += xSpeed;
     y += ySpeed;
+    
+  }
+  
+  void displayScore() {
+  rectMode(CENTER);
+  fill(18, 18, 18, 200);
+  rect(30, 20, 50, 25, 5);
+  fill(210, 180, 60);
+  textAlign(CENTER, CENTER);
+  text(i, 30, 20);
     
   }
 }

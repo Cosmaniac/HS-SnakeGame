@@ -15,9 +15,9 @@ class Button {
     //printArray(array);
     //font = createFont("HighTowerText.ttf", 32);
     //textFont(font);
-    fill(18);
+    fill(18, 200);
     rectMode(CENTER);
-    rect(x, y, 100, 35);
+    rect(x, y, 100, 35, 5, 0, 5, 5);
     fill(210, 180, 60);
     textAlign(CENTER, CENTER);
     text(label, x, y);
